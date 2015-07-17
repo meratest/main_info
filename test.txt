@@ -1,1 +1,26 @@
-12345
+Create a new repository on the command line
+
+echo # main_info >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/meratest/main_info.git
+git push -u origin master
+
+push an existing repository from the command line
+
+git remote add origin https://github.com/meratest/main_info.git
+git push -u origin master
+
+----------------------------------------------------------------------------------------------------------
+Наш пример:
+
+Создаём на диске D директорию (например D:/test) и кладём туда файл (например D:/test/git_test.txt).
+В командной строке гита переходим в эту директорию
+cd D:/test
+git init 
+git add git_test.txt
+git commit -m "some commit"
+git remote add origin https://github.com/meratest/main_info.git
+git push -u origin master
+

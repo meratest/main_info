@@ -1,0 +1,20 @@
+WINDOWSC
+Скачать можно с сайта http://msysgit.github.com/
+Конфиги тут:
+C:\Users\tashish.ALU\.gitconfig
+C:\Program Files (x86)\Git\etc\gitconfig
+
+В Git bush
+git config --global user.name "Tatyana Kuterina"
+git config --global user.email tashish@mera.ru
+Текстовый редактор:
+git config --global core.editor notepad++
+Утилита сравнения:
+git config --global merge.tool vimdiff
+Проверка настроек:
+git config --list
+git config {ключ} (пр.git config user.name)
+Открыть хелп:
+$ git help <команда>
+$ git <команда> --help
+$ man git-<команда>
