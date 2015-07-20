@@ -1,4 +1,4 @@
-Git How To:
+﻿Git How To:
 ___________________________________________________________________
 Наш общий проет: https://github.com/meratest/main_info.git
 (login\mail\password meratest\mera.test@yandex.ru\Qwerty1_qw)
