@@ -46,6 +46,7 @@ git fetch <name or link>	 добавляет инфо которая есть в
 git fetch origin	забрать изменения с основного проекта
 git pull	автоматически извлекает и затем сливает данные из удалённой ветки в вашу текущую ветку
 git push [удал. сервер] [ветка]	залить изменения в основной проект\индексирование
+git push origin master
 git remote show [удал. сервер]	получить больше информации об одном из удалённых репозиториев
 git remote rename [old_name] [new_name]	переименование ссылок в новых версиях Git'а
 git remote rm [name]	удаление репозитория
@@ -59,10 +60,11 @@ git tag -v [name_tag]	проверка подписанной метки
 git tag -a [name_tag] -m 'меточное сообщение' [контрольная сумма или её часть]
 git push origin [name_tag]	отправление меток
 git push origin --tags	отправление всех меток
+git branch [name]	создание новой ветки
+git checkout [name]	переход на существующую ветку
+git merge [name]	 сливает изменения ветки в которой находишься с веткой [name]
 
-
-
-
+git branch testing
 git tag -a v0.1 -m '2.3 info' e8d7
 git push origin v0.1
 git log	история коммитов
