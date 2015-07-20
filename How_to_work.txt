@@ -54,7 +54,11 @@ git tag -v [name_tag]	проверка подписанной метки
 git tag -a [name_tag] -m 'меточное сообщение' [контрольная сумма или её часть]
 git push origin [name_tag]	отправление меток
 git push origin --tags	отправление всех меток
- git config --global alias.co checkout	алиас
+git config --global alias.co checkout	алиас
+git branch [name]	создаём новую ветку
+git checkout [name]	переходим на существующую ветку
+git checkout -b [name]	создаём новую ветку и сразу на неё переходим
+git commit -a -m 'added a new footer [issue 53]'
 
 
 
