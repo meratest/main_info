@@ -1,3 +1,5 @@
 [‎23.‎06.‎2015 13:08] Podgornova, Yana: 
 DOC105940 "Python Training Materials" (ems://reference=DOC105940/)
 \\merann.ru\Projects\CV\Python_Training (file://merann.ru/Projects/CV/Python_Training)
+
+testline
