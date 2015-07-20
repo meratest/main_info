@@ -1,7 +1,13 @@
-Git How To:
+﻿Git How To:
 ___________________________________________________________________
 Наш общий проет: https://github.com/meratest/main_info.git
 (login\mail\password meratest\mera.test@yandex.ru\Qwerty1_qw)
+___________________________________________________________________
+Настройки прокси (вариант 1): 
+$ git config --global http.proxy http://<login>:<password>@proxy.alu.mera.ru:8080
+Логин указываем в виде <domain_name>\\<user_name> (ex: alu\\solomina). Не забываем экранировать слэш!
+Минусы решения: пароль хранится в открытом виде.
+
 ___________________________________________________________________
 
 Запускаем Git Bash
