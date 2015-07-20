@@ -56,6 +56,7 @@ git push origin [name_tag]	отправление меток
 git push origin --tags	отправление всех меток
 git branch [name]	создание новой ветки
 git checkout [name]	переход на существующую ветку
+git merge [name]	 сливает изменения ветки в которой находишься с веткой [name]
 
 git branch testing
 git tag -a v0.1 -m '2.3 info' e8d7
