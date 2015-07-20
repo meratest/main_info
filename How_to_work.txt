@@ -54,10 +54,10 @@ git tag -v [name_tag]	проверка подписанной метки
 git tag -a [name_tag] -m 'меточное сообщение' [контрольная сумма или её часть]
 git push origin [name_tag]	отправление меток
 git push origin --tags	отправление всех меток
+git branch [name]	создание новой ветки
+git checkout [name]	переход на существующую ветку
 
-
-
-
+git branch testing
 git tag -a v0.1 -m '2.3 info' e8d7
 git push origin v0.1
 git log	история коммитов

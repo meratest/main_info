@@ -7,6 +7,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/meratest/main_info.git
 git push -u origin master
 
+git clone https://github.com/meratest/main_info.git
+meratest
+Qwerty1_qw
+
 push an existing repository from the command line
 
 git remote add origin https://github.com/meratest/main_info.git
