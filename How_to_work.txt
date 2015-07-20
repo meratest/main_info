@@ -11,6 +11,7 @@ git clone https://github.com/meratest/main_info.git  b1 // создаём лок
 git visual	GUI
 ___________________________________________________________________
 Команды:
+git config --global alias.st status	алиас
 git init	создание проета
 git clone [url] или git clone [url] [name]	клонирование проета
 git status	проверка статуса файлов проекта
@@ -50,10 +51,18 @@ git push origin [name_tag]	отправление меток
 git push origin --tags	отправление всех меток
 git branch [name]	создание новой ветки
 git branch -d [name]	удаление ветки
+git branch	просмотреть список веток
+git branch -v	просмотреть последний коммит на каждой из веток
+git branch --merged	список смёрженых веток (в текущую)
+git branch --no-merged	список не смёрженых веток (в текущую)
+
 git checkout [name]	переход на существующую ветку
 git checkout -b [name]	создаём новую ветку и сразу на неё переходим
 git merge [name]	 сливает изменения ветки в которой находишься с веткой [name]
-git config --global alias.st status	алиас
+git mergetool --tool=[tool]	запуск графического инструмента 
+
+
+
 
 git log	история коммитов
 ___________________________________________________________________
