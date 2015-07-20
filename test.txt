@@ -28,3 +28,6 @@ git commit -m "some commit"
 git remote add origin https://github.com/meratest/main_info.git
 git push -u origin master
 
+
+
+Hotfix_info
